@@ -27,6 +27,7 @@ def num_sum_12_hour_clock():
 
     values_list = []
     incoming_values = [int(x) for x in input("Enter 2 numbers: ").split()]
+    #  each value is been appended to the list
     for each_num in incoming_values:
         values_list.append(each_num)
         if each_num >= 0:
@@ -35,6 +36,7 @@ def num_sum_12_hour_clock():
             print("Please enter positive numbers only!")
             break
 
+    #  validating length of list to be only 2
     if len(values_list) <= 1:
         print("Please enter only 2 digits")
     elif len(values_list) >= 3:

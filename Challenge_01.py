@@ -27,10 +27,12 @@ def increment_array_element():
     values_list = []
     incoming_values = input("Enter few digits: ").split()
 
+    #  converting to int type
     for each_element in incoming_values:
         change_type = int(each_element)
         values_list.append(change_type)
 
+    #  checking the length of input values received
     if len(values_list) <= 1:
         print("You need to enter more than 2 digits")
     else:
