@@ -34,7 +34,6 @@ def num_sum_12_hour_clock():
         else:
             print("Please enter positive numbers only!")
             break
-    
 
     if len(values_list) <= 1:
         print("Please enter only 2 digits")
@@ -43,10 +42,9 @@ def num_sum_12_hour_clock():
     else:
         print("Thanks for entering 2 digits")
     
-    
     total_result = values_list[0] + values_list[1]
     if total_result < 12:
-        print("Sum of both numbers are within the value 12 and result is: ",total_result)
+        print("Sum of both numbers are within the value 12 and result is: ", total_result)
     else:
         print("Sum of both numbers are beyond the value 12 and result is: ", total_result % 12)
 
