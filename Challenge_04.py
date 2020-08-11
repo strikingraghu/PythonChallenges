@@ -67,7 +67,7 @@ def identify_refilled_cups():
     print("Entered values are: ", values_list[0], values_list[1])
     counter = 0
     nth_initial_phase = int(values_list[0])
-    mth_refill_phase = int(values_list[1]) - 1
+    mth_refill_phase = int(values_list[1]) - 1  # (-1) first phase is always an input value, which is 55 in this case
     last_results = 0
     while counter <= mth_refill_phase:
         if counter == 0:
