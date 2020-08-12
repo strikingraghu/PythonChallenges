@@ -71,15 +71,16 @@ def identify_refilled_cups():
     last_results = 0
     while counter <= mth_refill_phase:
         if counter == 0:
-            print("Nth Phase = ", nth_initial_phase)
+            print(counter, "Refill = ", nth_initial_phase)
             counter = counter + 1
         elif last_results == 0:
             last_results = nth_initial_phase // 2
+            print(counter, "Refill = ", last_results)
             counter = counter + 1
         else:
             last_results = last_results // 2
+            print(counter, "Refill = ", last_results)
             counter = counter + 1
-            print("Mth Phase = ", last_results)
 
 
 # calling function
