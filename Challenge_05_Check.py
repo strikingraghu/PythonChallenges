@@ -58,4 +58,3 @@ if __name__ == '__main__':
     for i in range(t):
         arr = list(map(int, input().strip().split(' ')))
         add_fractions(arr[0], arr[1], arr[2], arr[3])
-
