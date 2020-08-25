@@ -28,7 +28,7 @@ No
 """
 
 
-def palindrome_identification():
+def palindrome_identification_num():
     print()
     incoming_number = int(input("Enter any number greater than zero: "))
     temp_var = incoming_number
@@ -45,5 +45,16 @@ def palindrome_identification():
         print("It's not a Palindrome")
 
 
+def palindrome_identification_string():
+    print()
+    incoming_str = input("Enter any string value: ")
+    temp_var = incoming_str[::-1]
+    if incoming_str == temp_var:
+        print("It's a Palindrome")
+    else:
+        print("It's not a Palindrome")
+
+
 # calling function
-palindrome_identification()
+palindrome_identification_num()
+palindrome_identification_string()
