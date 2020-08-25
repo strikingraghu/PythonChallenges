@@ -35,11 +35,12 @@ def identify_non_couple_person():
 
     for _ in range(int(input())):
         n = int(input())
-        arr = list(map(int, input().split()))
-        res = 0
-        for i in arr:
-            res ^= i
-        print(res)
+        if n != 0:
+            arr = list(map(int, input().split()))
+            res = 0
+            for i in arr:
+                res ^= i
+            print(res)
 
 
 # calling function
