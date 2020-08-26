@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges">
-      <change beforePath="$PROJECT_DIR$/Challenge_08_Imp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge_08_Imp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge_09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +204,8 @@
       <workItem from="1597935398568" duration="2483000" />
       <workItem from="1598005762574" duration="306000" />
       <workItem from="1598283927038" duration="605000" />
-      <workItem from="1598336538916" duration="4017000" />
+      <workItem from="1598336538916" duration="4668000" />
+      <workItem from="1598419363892" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>
@@ -254,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598353196458</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Python-Challenges">
+      <created>1598353412661</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598353412661</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,26 +302,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="450" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1597145196573" />
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1598006280177">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom" timestamp="1598376977744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2517" height="316" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597533148" />
-    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598006280177" />
-    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1598006280177">
+    <state width="1493" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598376977744" />
+    <state width="1493" height="240" key="GridCell.Tab.0.center" timestamp="1598376977744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2517" height="316" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597533147" />
-    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598006280177" />
-    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1598006280177">
+    <state width="1493" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598376977744" />
+    <state width="1493" height="240" key="GridCell.Tab.0.left" timestamp="1598376977743">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2517" height="316" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597533147" />
-    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598006280177" />
-    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1598006280177">
+    <state width="1493" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598376977743" />
+    <state width="1493" height="240" key="GridCell.Tab.0.right" timestamp="1598376977744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2517" height="316" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597533148" />
-    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598006280177" />
+    <state width="1493" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598376977744" />
     <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1597170452313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -334,16 +343,17 @@
     </state>
     <state x="4305" y="110" key="SettingsEditor/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597595438834" />
     <state x="557" y="90" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597588976443" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1598353204987">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1598353420005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="4443" y="276" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597471951" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598353204987" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598353420005" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_06.coverage" NAME="Challenge_06 Coverage Results" MODIFIED="1598006023369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_04.coverage" NAME="Challenge_04 Coverage Results" MODIFIED="1597588913090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_01.coverage" NAME="Challenge_01 Coverage Results" MODIFIED="1597147666641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_08_Imp.coverage" NAME="Challenge_08_Imp Coverage Results" MODIFIED="1598353393438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_05.coverage" NAME="Challenge_05 Coverage Results" MODIFIED="1597596994697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_03.coverage" NAME="Challenge_03 Coverage Results" MODIFIED="1597154866420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
