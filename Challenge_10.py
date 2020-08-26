@@ -32,3 +32,39 @@ def calculating_average():
 
 # calling function
 calculating_average()
+
+"""
+This is a Python Program to exchange the values of two numbers without using a temporary variable.
+
+Problem Description
+The program takes both the values from the user and swaps them without using temporary variable.
+
+Problem Solution
+1. Take the values of both the elements from the user.
+2. Store the values in separate variables.
+3. Add both the variables and store it in the first variable.
+4. Subtract the second variable from the first and store it in the second variable.
+5. Then, subtract the first variable from the second variable and store it in the first variable.
+6. Print the swapped values.
+7. Exit.
+"""
+
+
+def swapping_values():
+    print()
+
+    incoming_values = input("Enter only 2 numbers to swap values: ").split()
+    if len(incoming_values) >= 3:
+        print("Enter only 2 values!")
+    else:
+        print("Thanks for entering only 2 values!")
+    
+    x = incoming_values[0]
+    y = incoming_values[1]
+    print("Values before swap :", x, "|", y)
+    x, y = y, x
+    print("Values after swap :", x, "|", y)
+
+
+# calling function
+swapping_values()
