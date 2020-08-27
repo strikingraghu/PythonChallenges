@@ -58,11 +58,11 @@ def finding_student_grades():
 
     if average_score > 85.0:
         print("Congrats, you have scored distinction!")
-    elif average_score > 60.0 and average_score <= 85.0:
+    elif 60.0 < average_score <= 85.0:
         print("Nice, you have scored first class marks")
-    elif average_score > 50.0 and average_score <= 60.0:
+    elif 50.0 < average_score <= 60.0:
         print("Good, you have scored second class marks")
-    elif average_score >= 35.0 and average_score <= 50.0:
+    elif 35.0 <= average_score <= 50.0:
         print("Good, you have scored third class marks")
     else:
         print("Sorry, you have failed in one of subject. Hard luck!")
