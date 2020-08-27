@@ -55,6 +55,6 @@ def palindrome_identification_string():
         print("It's not a Palindrome")
 
 
-# calling function
+# calling functions
 palindrome_identification_num()
 palindrome_identification_string()
