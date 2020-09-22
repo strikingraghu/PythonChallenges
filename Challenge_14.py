@@ -26,6 +26,7 @@ def form_english_word():
     incoming_tests = int(input("Enter the number of test cases you are willing to run: "))
     while incoming_tests > 0:
         incoming_chars = input("Enter any english characters to form a word: ").split()
+        print("Actual values provided in an input stream: ", incoming_chars)
         word_formation = ""
         for each_element in incoming_chars:
             word_formation = word_formation + each_element
@@ -64,9 +65,9 @@ Output:
 def check_binary():
     print()
 
-    testcases = int(input())
+    testcases = int(input("Enter the number of test cases to validate this code: "))
     for i in range(testcases):
-        incoming_num = input().strip()
+        incoming_num = input("Enter any number of your choice: ").strip()
         if is_binary(incoming_num):
             print("It's a binary number!")
         else:
