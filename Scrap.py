@@ -21,6 +21,7 @@ Output:
     1 0 0 0
 """
 
+
 def incrementing_array():
     print()
 
@@ -47,7 +48,8 @@ def incrementing_array():
     print("Sorting Values = ", sorted_array_elements)
     getting_last_element = sorted_array_elements[-1]
     increased_last_element_value = int(getting_last_element) + 1
-    sorted_array_elements.append(increased_last_element_value)
+    string_conversion = str(increased_last_element_value)
+    sorted_array_elements.append(string_conversion)
     print("Final Output = ", sorted_array_elements)
 
 

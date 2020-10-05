@@ -63,7 +63,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Python.Challenge_14">
+  <component name="RunManager" selected="Python.Scrap">
     <configuration name="Challenge_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,8 +176,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Challenge_14" />
         <item itemvalue="Python.Scrap" />
+        <item itemvalue="Python.Challenge_14" />
         <item itemvalue="Python.Challenge_02" />
         <item itemvalue="Python.Challenge_13" />
         <item itemvalue="Python.Challenge_12" />
@@ -214,7 +214,7 @@
       <workItem from="1600669570786" duration="176000" />
       <workItem from="1600669980374" duration="14178000" />
       <workItem from="1601448098120" duration="1346000" />
-      <workItem from="1601875254676" duration="617000" />
+      <workItem from="1601875254676" duration="1388000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>
@@ -417,7 +417,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_06.coverage" NAME="Challenge_06 Coverage Results" MODIFIED="1598006023369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_14.coverage" NAME="Challenge_14 Coverage Results" MODIFIED="1600763360617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CompetitiveProgramming$Scrap.coverage" NAME="Scrap Coverage Results" MODIFIED="1600673688683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CompetitiveProgramming$Scrap.coverage" NAME="Scrap Coverage Results" MODIFIED="1601882462506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_13.coverage" NAME="Challenge_13 Coverage Results" MODIFIED="1598632362198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_02.coverage" NAME="Challenge_02 Coverage Results" MODIFIED="1600671882560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_04.coverage" NAME="Challenge_04 Coverage Results" MODIFIED="1597588913090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
