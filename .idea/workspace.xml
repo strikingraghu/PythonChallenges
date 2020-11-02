@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges" />
+    <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges">
+      <change afterPath="$PROJECT_DIR$/Challenge_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrap.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,9 +179,9 @@
       <list>
         <item itemvalue="Python.Scrap" />
         <item itemvalue="Python.Challenge_14" />
-        <item itemvalue="Python.Challenge_02" />
         <item itemvalue="Python.Challenge_13" />
         <item itemvalue="Python.Challenge_12" />
+        <item itemvalue="Python.Challenge_02" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +216,8 @@
       <workItem from="1600669980374" duration="14178000" />
       <workItem from="1601448098120" duration="1346000" />
       <workItem from="1601875254676" duration="2062000" />
+      <workItem from="1601965711315" duration="1203000" />
+      <workItem from="1604293808119" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>

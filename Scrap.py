@@ -1,48 +1,23 @@
+  
 """
-Problem Link: https://practice.geeksforgeeks.org/problems/12-hour-clock-addition/0
-Given two positive integers num1 and num2, the task is to find the sum of the two numbers on a 
-12 hour clock rather than a number line.
-Input
-First line of the input contains an integer T denoting the number of test cases. 
-For each test case there will be single line containing two space seperated integers.
-Output
-Corresponding to each test case, print the sum in a new line.
-
-Constraints:
-1 <= T <= 100
-0 <= num1 <= 50
-0 <= num2 <= 50
-
+Given a non-negative number represented as an array of digits, add 1 to the number.
+(Increment the number represented by the digits)
+The digits are stored such that the most significant digit is at the head of the list.
 Example:
-
+If the array has [4, 5, 6] the resultant array should be [4, 5, 7] as 456 + 1 = 457.
 Input:
-2
-7 5
-3 5
-
-Output
-0
-8
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases are:
+    The first line of each test case contains a single integer N denoting the size of array.
+    The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+Output:
+Print the space separated resultant array in a separate line for each case.
+Input:
+    2
+    4
+    5 6 7 8
+    3
+    9 9 9
+Output:
+    5 6 7 9
+    1 0 0 0
 """
-
-def calculate_timings():
-    print()
-
-    # user input validation and assessment
-    total_sum = 0
-    incoming_values = input("Enter any 2 positive numbers: ").split()
-    for each_num in incoming_values:
-        int_type_conversion = int(each_num)
-        total_sum = total_sum + int_type_conversion
-    print("Sum of both integers provided via User input : ", total_sum)
-
-    # logic to address the problem
-    calculate_time = total_sum % 12
-    if calculate_time == 0:
-        print("Current time is exactly 00.00 Hours")
-    else:
-        print("Current time is", calculate_time, "O'clock")
-
-
-# calling function
-calculate_timings()
