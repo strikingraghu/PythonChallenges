@@ -15,6 +15,7 @@ Problem Solution
 8. Exit.
 """
 
+
 def concatenate_get_sum():
     print()
     user_input = input("Enter the number of your choice: ")
