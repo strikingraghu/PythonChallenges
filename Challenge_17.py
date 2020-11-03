@@ -12,9 +12,6 @@ Problem Solution
 """
 
 
-from typing import Counter
-
-
 def reverse_values():
     print()
     user_input = input("Enter any value to get it reversed: ")
@@ -30,7 +27,7 @@ def reverse_number():
     print()
     user_input = int(input("Enter any number to get it reversed: "))
     reversed_value = 0
-    while (user_input > 0):
+    while user_input > 0:
         dig = user_input % 10
         reversed_value = reversed_value * 10 + dig
         user_input = user_input//10
