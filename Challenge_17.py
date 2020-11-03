@@ -12,6 +12,20 @@ Problem Solution
 """
 
 
+from typing import Counter
+
+
+def reverse_values():
+    print()
+    user_input = input("Enter any value to get it reversed: ")
+    user_list = []
+    for each_element in user_input:
+        user_list.append(each_element)
+    print("Moving it a list: ", user_list)
+    reversed_number = user_input[::-1]
+    print("Changing order: ", reversed_number)
+
+
 def reverse_number():
     print()
     user_input = int(input("Enter any number to get it reversed: "))
@@ -24,3 +38,4 @@ def reverse_number():
 
 
 reverse_number()
+reverse_values()
