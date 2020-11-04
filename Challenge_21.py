@@ -11,3 +11,20 @@ Problem Solution
 4. The list is then sorted and the smallest element is printed.
 5. Exit.
 """
+
+
+def fetch_smallest_divisor():
+    print()
+
+    user_input = int(input("Enter any number of your choice: "))
+    assumed_range = range(2, user_input+1)
+    print("Range decided for running this script: ", assumed_range)
+    assumed_list = []
+    for each_integer in assumed_range:
+        if user_input % each_integer == 0:
+            assumed_list.append(each_integer)
+    assumed_list.sort()
+    print("Picking the smallest divisor for a given number: ", assumed_list[0])
+
+
+fetch_smallest_divisor()
