@@ -17,14 +17,11 @@ def fetch_possible_combinations():
     first_input = int(input("Enter 1st number: "))
     second_input = int(input("Enter 2nd number: "))
     third_input = int(input("Enter 3rd number: "))
-    values_list = []
-    values_list.append(first_input)
-    values_list.append(second_input)
-    values_list.append(third_input)
+    values_list = [first_input, second_input, third_input]
     for i in range(0, 3):
         for j in range(0, 3):
             for k in range(0, 3):
-                if(i!=j & j!=k & k!=i):
+                if i != j & j != k & k != i:
                     print(values_list[i], values_list[j], values_list[k])
 
 

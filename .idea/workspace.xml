@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges" />
+    <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge_20.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,7 +216,7 @@
       <workItem from="1601448098120" duration="1346000" />
       <workItem from="1601875254676" duration="2062000" />
       <workItem from="1601965711315" duration="1203000" />
-      <workItem from="1604293808119" duration="2507000" />
+      <workItem from="1604293808119" duration="3203000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>
