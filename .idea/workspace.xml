@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges">
-      <change afterPath="$PROJECT_DIR$/Challenge_23.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge_24_Imp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Challenge_20_Imp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge_20.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,29 +64,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Python.Challenge_24_Imp">
-    <configuration name="Challenge_13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge_13.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Challenge_20_Imp">
     <configuration name="Challenge_14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +79,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge_14.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Challenge_20_Imp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge_20_Imp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Challenge_20_Imp" />
         <item itemvalue="Python.Challenge_24_Imp" />
         <item itemvalue="Python.Challenge_23" />
         <item itemvalue="Python.Scrap" />
         <item itemvalue="Python.Challenge_14" />
-        <item itemvalue="Python.Challenge_13" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +240,7 @@
       <workItem from="1601875254676" duration="2062000" />
       <workItem from="1601965711315" duration="1203000" />
       <workItem from="1604293808119" duration="3812000" />
-      <workItem from="1604574758110" duration="5301000" />
+      <workItem from="1604574758110" duration="6351000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>
@@ -361,7 +361,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604581693675</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Python-Challenges">
+      <created>1604587538739</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604587538739</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Python-Challenges">
+      <created>1604587546258</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604587546258</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Python-Challenges">
+      <created>1604587552651</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604587552651</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,26 +421,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="450" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1600669582944" />
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1604587403641">
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1604597703662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2517" height="316" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597533148" />
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604587403641" />
-    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1604587403641">
+    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604597703662" />
+    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1604597703662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2517" height="316" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597533147" />
-    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604587403641" />
-    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1604587403641">
+    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604597703662" />
+    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1604597703662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2517" height="316" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597533147" />
-    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604587403641" />
-    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1604587403641">
+    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604597703662" />
+    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1604597703662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2517" height="316" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597533148" />
-    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604587403641" />
+    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604597703662" />
     <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1597170452313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -441,11 +462,11 @@
     </state>
     <state x="4305" y="110" key="SettingsEditor/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597595438834" />
     <state x="557" y="90" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597588976443" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1604581707078">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1604587563917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="4443" y="276" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1597597471951" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604581707078" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604587563917" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_06.coverage" NAME="Challenge_06 Coverage Results" MODIFIED="1598006023369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -461,6 +482,7 @@
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_02.coverage" NAME="Challenge_02 Coverage Results" MODIFIED="1600671882560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_04.coverage" NAME="Challenge_04 Coverage Results" MODIFIED="1597588913090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_12.coverage" NAME="Challenge_12 Coverage Results" MODIFIED="1598539306020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_20_Imp.coverage" NAME="Challenge_20_Imp Coverage Results" MODIFIED="1604597703656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_03.coverage" NAME="Challenge_03 Coverage Results" MODIFIED="1597154866420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
