@@ -21,3 +21,27 @@ def calculate_height_value():
 
 
 calculate_height_value()
+
+
+"""
+This is a Python Program to take the temperature in Celsius and convert it to Fahrenheit.
+
+Problem Description
+The program takes the temperature in Celsius and converts it to Fahrenheit.
+
+Problem Solution
+1. Take the value of temperature in Celsius and store it in a variable.
+2. Convert it to Fahrenheit.
+3. Print the final result.
+4. Exit.
+"""
+
+
+def calculate_celsius():
+    print()
+    get_fahrenheit = int(input("Enter a Fahrenheith for converting it to Celsisus: "))
+    celsius_formula = (get_fahrenheit - 32) * 5/9
+    print("Output: ", round(celsius_formula, 2))
+
+
+calculate_celsius()
