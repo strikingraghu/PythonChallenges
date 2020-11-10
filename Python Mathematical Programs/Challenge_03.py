@@ -14,7 +14,7 @@ Problem Solution
 
 def calculate_height_value():
     print()
-    height_centimeters = int(input("Enter the height of a person to get it convereted to feet & inches value: "))
+    height_centimeters = int(input("Enter the height of a person to get it converted to feet & inches value: "))
     height_feet_value = 0.0328 * height_centimeters
     height_inches_value = 0.394 * height_centimeters
     print("Value after conversion is", round(height_feet_value, 2), "feet or", round(height_inches_value, 2), "inches")
@@ -39,7 +39,7 @@ Problem Solution
 
 def calculate_celsius():
     print()
-    get_fahrenheit = int(input("Enter a Fahrenheith for converting it to Celsisus: "))
+    get_fahrenheit = int(input("Enter a Fahrenheit for converting it to Celsius: "))
     celsius_formula = (get_fahrenheit - 32) * 5/9
     print("Output: ", round(celsius_formula, 2))
 

@@ -1,4 +1,33 @@
 """
+This is a Python Program to generate all the divisors of an integer.
+
+Problem Description
+The program takes a number and generates all the divisors of the number.
+
+Problem Solution
+1. Take the value of the integer and store it in a variable.
+2. Use a for loop and if statement to generate the divisors of the integer.
+3. Print the divisors of the number.
+4. Exit.
+"""
+
+
+def get_integer_divisors():
+    print()
+    try:
+        user_input = int(input("Enter any number if your choice: "))
+        setting_range = range(2, user_input + 1)
+        for each_range_value in setting_range:
+            if user_input % each_range_value == 0:
+                print(each_range_value)
+    except ValueError as ve:
+        print("Please provide a number in the input section!")
+        print(ve.__doc__)
+
+
+get_integer_divisors()
+
+"""
 This is a Python Program to compute prime factors of an integer.
 
 Problem Description
@@ -26,7 +55,7 @@ def fetch_prime_factors():
                 j = j + 1
 
             if count == 2:
-                print("%d is a Prime Factor of a given number %d" %(i, get_specific_number))
+                print("%d is one of the prime factor for %d" % (i, get_specific_number))
         i = i + 1
 
 
