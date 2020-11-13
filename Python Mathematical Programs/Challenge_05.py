@@ -45,10 +45,25 @@ def calculate_various_pattern_numbers():
     try:
         input_loop_val = int(input("Enter the length of numbers you want to provide: "))
         setting_range = range(1, input_loop_val+1)
+        value_list = []
         for each_get_val in setting_range:
-            print(each_get_val)
+            fetch_value = int(input("Enter any number of your choice: "))
+            value_list.append(fetch_value)
+        print("You did enter these values in the prompt: ", value_list)
+
+        positive_integers_sum = 0
+        for each_positive_val in value_list:
+            if each_positive_val >= 0:
+                positive_integers_sum = positive_integers_sum + each_positive_val
+        print("Sum of all positive numbers: ", positive_integers_sum)
+        
+        negative_integers_sum = 0
+        for each_negative_val in value_list:
+            if each_negative_val < 0:
+                negative_integers_sum = negative_integers_sum + each_negative_val
+        print("Sum of all negative numbers: ", negative_integers_sum)
     except ValueError as ve:
-        pass
+        print("Please provide only integers in the prompt!")
 
 
 calculate_various_pattern_numbers()
