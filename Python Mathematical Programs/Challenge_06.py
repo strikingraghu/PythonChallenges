@@ -24,7 +24,7 @@ def fetch_largest_even_odd_number():
         
         # running loop
         temp_list = []
-        for each_loop_val in setting_range:
+        for _ in setting_range:
             fetch_element = int(input("Provide number of your choice: "))
             temp_list.append(fetch_element)
         print("You have entered below values for this code: \n")
@@ -46,3 +46,43 @@ def fetch_largest_even_odd_number():
 
 
 fetch_largest_even_odd_number()
+
+
+"""
+This is a Python Program to form an integer that has the number of digits at the ten’s place and the least significant
+digit in the one’s place.
+
+Problem Description
+The program takes an integer and forms a new integer which has the number of digits at the ten’s place and the
+least significant digit in the one’s place.
+
+Problem Solution
+1. Take in an integer and store it in a variable.
+2. Make a separate copy of the integer.
+3. Using a while loop, calculate the number of digits in the integer.
+4. Convert the copy of the integer and the count of the number of digits to string.
+5. Concatenate the last digit of the integer to the count and convert the new integer back to int.
+6. Print the newly formed integer.
+7. Exit.
+"""
+
+
+def integer_builder():
+    print()
+
+    user_input = input("Enter the number of your choice: ")
+    user_input_list = []
+    integer_length = len(user_input)
+    print("Number of integers provided: ", integer_length)
+    counter_val = 0
+    last_integer = 0
+    for each_integer in user_input:
+        counter_val = counter_val + 1
+        if integer_length == counter_val:
+            last_integer = each_integer
+        
+    building_number = str(integer_length) + str(last_integer)
+    print(building_number)
+
+
+integer_builder()
