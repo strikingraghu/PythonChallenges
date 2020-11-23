@@ -7,10 +7,11 @@ The program takes in a list and prints the largest even and largest off number i
 Problem Solution
 1. Take in the number of elements to be in the list from the user.
 2. Take in the elements from the user using a for loop and append to a list.
-3. Using a for loop, get the elements one by one from the list and check if it odd or even and append them to different lists.
-4. Sort both the lists individually and get the length of each list.
-5. Print the last elements of the sorted lists.
-6. Exit.
+3. Using a for loop, get the elements one by one from the list
+4. Check if it odd or even & append them to different lists.
+5. Sort both the lists individually and get the length of each list.
+6. Print the last elements of the sorted lists.
+7. Exit.
 """
 
 
