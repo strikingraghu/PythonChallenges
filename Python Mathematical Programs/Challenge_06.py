@@ -71,7 +71,6 @@ def integer_builder():
     print()
 
     user_input = input("Enter the number of your choice: ")
-    user_input_list = []
     integer_length = len(user_input)
     print("Number of integers provided: ", integer_length)
     counter_val = 0
