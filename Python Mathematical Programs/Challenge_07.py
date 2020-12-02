@@ -1,4 +1,8 @@
 """
+Python Challenges
+"""
+
+"""
 This is a Python Program to find those numbers which are divisible by 7 and multiple of 5 in a given range of numbers.
 
 Problem Description
@@ -63,3 +67,41 @@ def validate_armstrong_feature():
 
 
 validate_armstrong_feature()
+
+
+"""
+This is a Python Program to check if a number is a Perfect number.
+
+Problem Description
+The program takes a number and checks if it is a Perfect number.
+
+Problem Solution
+1. Take in an integer and store it in a variable.
+2. Initialize a variable to count the sum of the proper divisors to 0.
+3. Use a for loop and an if statement to add the proper divisors of the integer to the sum variable.
+4. Check if the sum of the proper divisors of the number is equal to the variable.
+5. Print the final result.
+6. Exit.
+"""
+
+
+def perform_perfect_number_validation():
+    print()
+    try:
+        user_input = input("Enter any number of your choice: ")
+        total_sum = 0
+        for each_digit in user_input:
+            int_converted_val = int(each_digit)
+            if int(user_input) % int_converted_val == 0:
+                total_sum = total_sum + int_converted_val
+        print("Completed looping activities")
+
+        if total_sum == int(user_input):
+            print("Wow, you entered a Perfect number!")
+        else:
+            print("Cool, try again to identify a Perfect number!")
+    except ValueError as ve:
+        print("Value Error: ", ve.__traceback__)
+
+
+perform_perfect_number_validation()
