@@ -101,7 +101,52 @@ def perform_perfect_number_validation():
         else:
             print("Cool, try again to identify a Perfect number!")
     except ValueError as ve:
-        print("Value Error: ", ve.__traceback__)
+        print("Value Error: ", ve)
 
 
 perform_perfect_number_validation()
+
+
+"""
+This is a Python Program to check if a number is a strong number.
+
+Problem Description
+The program takes a number and checks if it is a strong number.
+
+Problem Solution
+1. Take in an integer and store it in a variable.
+2. Using two while loops, find the factorial of each of the digits in the number.
+3. Then sum up all the factorials of the digits.
+4. Check if the sum of the factorials of the digits is equal to the number.
+5. Print the final result.
+6. Exit.
+"""
+
+
+def perform_strong_number_validation():
+    print()
+    user_number = int(input("Enter any number of your choice for Strong number identification: "))
+    sum_val = 0
+    temp_val = user_number
+    while temp_val > 0:
+        factorial = 1
+        iteration_val = 1
+        reminder = temp_val % 10
+
+        while iteration_val <= reminder:
+            factorial = factorial * iteration_val
+            iteration_val = iteration_val + 1
+
+        print("\n Factorial of %d = %d" %(reminder, factorial))
+        sum_val = sum_val + factorial
+        temp_val = temp_val // 10
+
+    print("\n Sum of Factorials of a given number %d = %d" %(user_number, sum_val))
+
+    if sum_val == user_number:
+        print("%d is a Strong number" %(user_number))
+    else:
+        print("%d is not a Strong number" %(user_number))
+
+
+perform_strong_number_validation()
