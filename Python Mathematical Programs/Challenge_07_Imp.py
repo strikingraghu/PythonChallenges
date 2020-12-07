@@ -21,14 +21,13 @@ def fetch_integer_divisible_multiple():
     print()
     user_input_start_range = int(input("Enter the starting range value for this program: "))
     user_input_end_range = int(input("Enter the ending range value for this program: "))
-    building_range = range(user_input_start_range, user_input_end_range+1)
+    building_range = range(user_input_start_range, user_input_end_range + 1)
     for each_int in building_range:
         if each_int % 7 == 0 and each_int % 5 == 0:
             print(each_int, "= divisible by 7 and it's a multiple of 5")
 
 
 fetch_integer_divisible_multiple()
-
 
 """
 This is a Python Program to check if a number is an Armstrong number.
@@ -68,7 +67,6 @@ def validate_armstrong_feature():
 
 validate_armstrong_feature()
 
-
 """
 This is a Python Program to check if a number is a Perfect number.
 
@@ -106,7 +104,6 @@ def perform_perfect_number_validation():
 
 perform_perfect_number_validation()
 
-
 """
 This is a Python Program to check if a number is a strong number.
 
@@ -137,16 +134,16 @@ def perform_strong_number_validation():
             factorial = factorial * iteration_val
             iteration_val = iteration_val + 1
 
-        print("\n Factorial of %d = %d" %(reminder, factorial))
+        print("\n Factorial of %d = %d" % (reminder, factorial))
         sum_val = sum_val + factorial
         temp_val = temp_val // 10
 
-    print("\n Sum of Factorials of a given number %d = %d" %(user_number, sum_val))
+    print("\n Sum of Factorials of a given number %d = %d" % (user_number, sum_val))
 
     if sum_val == user_number:
-        print("%d is a Strong number" %(user_number))
+        print("%d is a Strong number" % user_number)
     else:
-        print("%d is not a Strong number" %(user_number))
+        print("%d is not a Strong number" % user_number)
 
 
 perform_strong_number_validation()

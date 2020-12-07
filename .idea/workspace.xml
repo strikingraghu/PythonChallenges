@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Mathematical Programs/Challenge_07.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Mathematical Programs/Challenge_07_Imp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python Mathematical Programs/Challenge_07_Imp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Mathematical Programs/Challenge_07_Imp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +278,10 @@
       <workItem from="1606133513700" duration="178000" />
       <workItem from="1606890854346" duration="51000" />
       <workItem from="1606890922299" duration="4881000" />
-      <workItem from="1607065839900" duration="4382000" />
+      <workItem from="1607065839900" duration="5004000" />
+      <workItem from="1607173910583" duration="22000" />
+      <workItem from="1607333044594" duration="20000" />
+      <workItem from="1607333079526" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>
@@ -469,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606900712594</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Python-Challenges">
+      <created>1607071973242</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607071973242</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,26 +526,26 @@
       <screen x="3840" y="0" width="2560" height="1560" />
     </state>
     <state x="4900" y="534" key="FileChooserDialogImpl/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1606900676792" />
-    <state width="2518" height="295" key="GridCell.Tab.0.bottom" timestamp="1607071911609">
-      <screen x="3840" y="0" width="2560" height="1560" />
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom" timestamp="1607074151710">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2518" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1607071911609" />
-    <state width="2517" height="556" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607055159199" />
-    <state width="2518" height="295" key="GridCell.Tab.0.center" timestamp="1607071911609">
-      <screen x="3840" y="0" width="2560" height="1560" />
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607074151710" />
+    <state width="1493" height="295" key="GridCell.Tab.0.center" timestamp="1607074151710">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2518" height="295" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1607071911609" />
-    <state width="2517" height="556" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607055159199" />
-    <state width="2518" height="295" key="GridCell.Tab.0.left" timestamp="1607071911608">
-      <screen x="3840" y="0" width="2560" height="1560" />
+    <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607074151710" />
+    <state width="1493" height="295" key="GridCell.Tab.0.left" timestamp="1607074151710">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2518" height="295" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1607071911608" />
-    <state width="2517" height="556" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607055159199" />
-    <state width="2518" height="295" key="GridCell.Tab.0.right" timestamp="1607071911609">
-      <screen x="3840" y="0" width="2560" height="1560" />
+    <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607074151710" />
+    <state width="1493" height="295" key="GridCell.Tab.0.right" timestamp="1607074151710">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="2518" height="295" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1607071911609" />
-    <state width="2517" height="556" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607055159199" />
+    <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607074151710" />
     <state width="2517" height="556" key="GridCell.Tab.1.bottom" timestamp="1607055159199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -560,10 +570,10 @@
       <screen x="3840" y="0" width="2560" height="1560" />
     </state>
     <state x="4651" y="331" key="SettingsEditor/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1606891197718" />
-    <state x="4443" y="276" key="Vcs.Push.Dialog.v2" timestamp="1606900734868">
+    <state x="4443" y="276" key="Vcs.Push.Dialog.v2" timestamp="1607071982314">
       <screen x="3840" y="0" width="2560" height="1560" />
     </state>
-    <state x="4443" y="276" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1606900734868" />
+    <state x="4443" y="276" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.2560.1560@3840.0.2560.1560" timestamp="1607071982314" />
     <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604650534014" />
     <state x="3932" y="92" width="2376" height="1376" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606900778878">
       <screen x="3840" y="0" width="2560" height="1560" />
