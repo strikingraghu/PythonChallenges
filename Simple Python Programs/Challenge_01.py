@@ -24,10 +24,10 @@ Output:
 
 def increment_array_element():
     print()
-    values_list = []
     incoming_values = input("Enter few digits: ").split()
 
-    #  converting to int type
+    #  converting input values to int type
+    values_list = []
     for each_element in incoming_values:
         change_type = int(each_element)
         values_list.append(change_type)
