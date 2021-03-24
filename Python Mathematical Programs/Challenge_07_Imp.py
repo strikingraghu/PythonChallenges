@@ -16,6 +16,8 @@ Problem Solution
 5. Exit.
 """
 
+import fractions
+
 
 def fetch_integer_divisible_multiple():
     print()
@@ -190,3 +192,24 @@ def finding_lcm_value():
 
 
 finding_lcm_value()
+
+"""
+Problem Description
+The program takes two numbers and prints the GCD of two numbers.
+
+Problem Solution
+1. Import the fractions module.
+2. Take in both the integers and store it in separate variables.
+3. Use the in-built function to find the GCD of both the numbers.
+4. Print the GCD.
+5. Exit.
+"""
+
+
+def finding_gcd_value():
+    a=int(input("Enter the first number:"))
+    b=int(input("Enter the second number:"))
+    print("The GCD of the two numbers is",fractions.gcd(a,b))
+
+
+finding_gcd_value()
