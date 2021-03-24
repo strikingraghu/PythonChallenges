@@ -147,3 +147,46 @@ def perform_strong_number_validation():
 
 
 perform_strong_number_validation()
+
+"""
+This is a Python Program to find the LCM of two numbers.
+
+Problem Description
+The program takes two numbers and prints the LCM of two numbers.
+
+Problem Solution
+1. Take in both the integers and store it in separate variables.
+2. Find which of the integer among the two is smaller and store it in a separate variable.
+3. Use a while loop whose condition is always True until break is used.
+4. Use an if statement to check if both the numbers are divisible by the minimum number and increment otherwise.
+5. Print the final LCM.
+6. Exit.
+
+Program Explanation
+1. User must enter both the numbers and store it in separate variables.
+2. An if statement is used to find out which of the numbers is smaller and store in a minimum variable.
+3. Then a while loop is used whose condition is always true (or 1) unless break is used.
+4. Then an if statement within the loop is used to check whether the value in the minimum variable is divisible by both the numbers.
+5. If it is divisible, break statement breaks out of the loop.
+6. If it is not divisible, the value in the minimum variable is incremented.
+7. The final LCM is printed.
+"""
+
+
+def finding_lcm_value():
+    first_val = int(input("Enter the first number of your choice for LCM value: "))
+    second_val = int(input("Enter the first number of your choice for LCM value: "))
+
+    if first_val > second_val:
+        min1 = first_val
+    else:
+        min1 = second_val
+    
+    while(1):
+        if (min1 % first_val == 0 and min1 % second_val == 0):
+            print("LCM is: ", min1)
+            break
+        min1 = min1 + 1
+
+
+finding_lcm_value()
