@@ -1,3 +1,5 @@
+import math
+
 """
 Python Challenges
 """
@@ -15,8 +17,6 @@ Problem Solution
 4. Print those numbers
 5. Exit.
 """
-
-import fractions
 
 
 def fetch_integer_divisible_multiple():
@@ -184,8 +184,8 @@ def finding_lcm_value():
     else:
         min1 = second_val
     
-    while(1):
-        if (min1 % first_val == 0 and min1 % second_val == 0):
+    while 1:
+        if min1 % first_val == 0 and min1 % second_val == 0:
             print("LCM is: ", min1)
             break
         min1 = min1 + 1
@@ -207,9 +207,9 @@ Problem Solution
 
 
 def finding_gcd_value():
-    a=int(input("Enter the first number:"))
-    b=int(input("Enter the second number:"))
-    print("The GCD of the two numbers is",fractions.gcd(a,b))
+    a = int(input("Enter the first number:"))
+    b = int(input("Enter the second number:"))
+    print("The GCD of the two numbers is", math.gcd(a, b))
 
 
 finding_gcd_value()
