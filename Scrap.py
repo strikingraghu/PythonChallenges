@@ -26,13 +26,13 @@ def validate_date():
     elif month_value == 2 and date_value > 29:
         print("Provided date value is not a valid one!")
     else:
-        print("Thanks, date provide is valid")
+        print("Thanks, date provided is valid")
 
     # validations towards month's value
     if month_value == 00 or month_value > 13:
         print("Provided month in the user input is not a valid one!")
     else:
-        print("Thanks, month provide is valid")
+        print("Thanks, month provided is valid")
 
     # validations towards month's value
     leap_year = False

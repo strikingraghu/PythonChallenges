@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges">
-      <change beforePath="$PROJECT_DIR$/.idea/CompetitiveProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CompetitiveProgramming.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Mathematical Programs/Challenge_07_Imp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python Mathematical Programs/Challenge_07_Imp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +284,7 @@
       <workItem from="1607333079526" duration="1125000" />
       <workItem from="1611940922424" duration="11000" />
       <workItem from="1617106445354" duration="208000" />
-      <workItem from="1617106674443" duration="143000" />
+      <workItem from="1617106674443" duration="2054000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>
