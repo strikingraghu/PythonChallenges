@@ -11,6 +11,8 @@ Problem Solution
 6. Exit.
 """
 
+import math
+
 
 def check_amicable_num_validation():
 
@@ -47,3 +49,36 @@ def check_amicable_num_validation():
 
 
 check_amicable_num_validation()
+
+
+"""
+Problem Description
+The program takes three sides of a triangle and prints the area formed by all three sides.
+
+Problem Solution
+1. Take in all the three sides of the triangle and store it in three separate variables.
+2. Then using the Heron’s formula, compute the area of the triangle.
+3. Print the area of the triangle.
+4. Exit.
+"""
+
+
+def calculate_triangle_area():
+    
+    try:
+        x = int(input("Enter the value of first side: "))
+        y = int(input("Enter the value of second side: "))
+        z = int(input("Enter the value of third side: "))
+
+        if type(x and y and z) == int:
+            area = (x + y + z) / 2
+            print("Getting into the calculation!")
+            triange_area = math.sqrt(area * (area-x)*(area-y)*(area-z))
+            
+        print("Area of Triangle is around = ", round(triange_area, 2))
+    except (KeyboardInterrupt, ValueError, UnboundLocalError) as e:
+        print("Logging error: ", e)
+        print("Please check the provided input values!")
+
+
+calculate_triangle_area()
