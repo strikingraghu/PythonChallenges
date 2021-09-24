@@ -48,7 +48,7 @@ def check_amicable_num_validation():
         print("Please check the provided input values!")
 
 
-check_amicable_num_validation()
+# check_amicable_num_validation()
 
 
 """
@@ -81,4 +81,37 @@ def calculate_triangle_area():
         print("Please check the provided input values!")
 
 
-calculate_triangle_area()
+# calculate_triangle_area()
+
+
+"""
+Problem Description
+The program takes in a number and checks if it is a prime number.
+
+Problem Solution
+1. Take in the number to be checked and store it in a variable.
+2. Initialize the count variable to 0.
+3. Let the for loop range from 2 to half of the number (excluding 1 and the number itself).
+4. Then find the number of divisors using the if statement and increment the count variable each time.
+5. If the number of divisors is lesser than or equal to 0, the number is prime.
+6. Print the final result.
+5. Exit.
+"""
+
+
+def check_prime_number():
+
+    a = int(input("Enter number: "))
+    k = 0
+    for i in range(2,a//2+1):
+        print("i = ", i)
+        if(a % i == 0):
+            k = k+1
+            print("k = ", k)
+    if(k <= 0):
+        print("Number is prime")
+    else:
+        print("Number isn't prime")
+
+
+check_prime_number()
