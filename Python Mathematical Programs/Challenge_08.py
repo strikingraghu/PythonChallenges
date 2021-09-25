@@ -101,17 +101,15 @@ Problem Solution
 
 def check_prime_number():
 
-    a = int(input("Enter number: "))
-    k = 0
-    for i in range(2,a//2+1):
-        print("i = ", i)
-        if(a % i == 0):
-            k = k+1
-            print("k = ", k)
-    if(k <= 0):
-        print("Number is prime")
-    else:
-        print("Number isn't prime")
+    incoming_val = int(input("Enter the number: "))
+    counter_value = 0
 
+    for i in range(2, incoming_val//2+1):
+        if (incoming_val % i == 0):
+            counter_value = counter_value + 1
+    if counter_value <= 0:
+        print("Provided number is prime")
+    else:
+        print("Provide number is not prime!")
 
 check_prime_number()
