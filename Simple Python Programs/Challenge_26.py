@@ -7,3 +7,7 @@
 
 num = input("Enter the number of your choice: ")
 print("Number provided by you is: ", num)
+
+name = input("Enter any name of your choice: ")
+print("Name that's been entered is: ", name)
+
