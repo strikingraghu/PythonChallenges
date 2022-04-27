@@ -11,3 +11,22 @@ print("Number provided by you is: ", num)
 name = input("Enter any name of your choice: ")
 print("Name that's been entered is: ", name)
 
+# Typecasting Functions
+
+
+def typecasting():
+
+    given_value = input("Enter the number of your choice: ")
+    for element in given_value:
+        typecasting_value = int(element)
+        try:
+            if type(typecasting_value) == int:
+                print("Thanks, entered value is an integer")
+        except ValueError as e:
+            if type(typecasting_value) != int:
+                print("Err, please enter a valid integer!")
+            print(e.__class__)
+
+
+typecasting()
+
