@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Python Programs/Challenge_26.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Python Programs/Challenge_26.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +294,14 @@
       <workItem from="1648973309865" duration="1067000" />
       <workItem from="1649299713036" duration="1165000" />
       <workItem from="1649645299496" duration="1444000" />
-      <workItem from="1651033567358" duration="3623000" />
+      <workItem from="1651033567358" duration="4317000" />
+      <workItem from="1651127461436" duration="1790000" />
+      <workItem from="1652528016854" duration="607000" />
+      <workItem from="1653370290969" duration="637000" />
+      <workItem from="1653559544443" duration="602000" />
+      <workItem from="1654746462893" duration="1637000" />
+      <workItem from="1664768560497" duration="1618000" />
+      <workItem from="1672464132555" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>
