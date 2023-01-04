@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes &amp; OOPs/Airplane.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes &amp; OOPs/Rectangle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <recent name="E:\Python\CompetitiveProgramming\Simple Python Programs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Vehicle">
+  <component name="RunManager" selected="Python.Rectangle">
     <configuration name="Challenge_06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,28 +144,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Challenge_24_Imp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CompetitiveProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Python\CompetitiveProgramming\Simple Python Programs\Challenge_24_Imp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Challenge_25_Imp" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,6 +188,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classes &amp; OOPs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes &amp; OOPs/Rectangle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Vehicle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Rectangle" />
         <item itemvalue="Python.Vehicle" />
         <item itemvalue="Python.Challenge_26" />
         <item itemvalue="Python.Challenge_07_Imp" />
         <item itemvalue="Python.Challenge_06" />
-        <item itemvalue="Python.Challenge_24_Imp" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +307,9 @@
       <workItem from="1672464920408" duration="1561000" />
       <workItem from="1672545002333" duration="789000" />
       <workItem from="1672636044496" duration="1217000" />
-      <workItem from="1672713786666" duration="4261000" />
+      <workItem from="1672713786666" duration="5102000" />
+      <workItem from="1672750540507" duration="624000" />
+      <workItem from="1672806792444" duration="1917000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>
