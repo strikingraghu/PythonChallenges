@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f97878f9-7078-47f3-8763-c5e2b4ec8606" name="Default Changelist" comment="Python-Challenges">
+      <change afterPath="$PROJECT_DIR$/Deep-Dive 1/RefresherSeries/Generic_Looping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes &amp; OOPs/Rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes &amp; OOPs/Rectangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes &amp; OOPs/Rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep-Dive 1/RefresherSeries/Rectangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes &amp; OOPs/Vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deep-Dive 1/RefresherSeries/Vehicle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -74,10 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Code\PythonChallenges\Deep-Dive 1" />
       <recent name="E:\Python\CompetitiveProgramming\Simple Python Programs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Rectangle">
+  <component name="RunManager" selected="Python.Generic_Looping">
     <configuration name="Challenge_06" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,6 +191,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Generic_Looping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CompetitiveProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deep-Dive 1/RefresherSeries" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Deep-Dive 1/RefresherSeries/Generic_Looping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Rectangle" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CompetitiveProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,6 +259,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Generic_Looping" />
         <item itemvalue="Python.Vehicle" />
         <item itemvalue="Python.Challenge_26" />
         <item itemvalue="Python.Challenge_07_Imp" />
@@ -311,7 +337,8 @@
       <workItem from="1672890700425" duration="3243000" />
       <workItem from="1672979895288" duration="799000" />
       <workItem from="1672987189684" duration="1190000" />
-      <workItem from="1673012292431" duration="1728000" />
+      <workItem from="1673012292431" duration="2375000" />
+      <workItem from="1673230983480" duration="3279000" />
     </task>
     <task id="LOCAL-00001" summary="Python-Challenges">
       <created>1597147727525</created>
@@ -545,7 +572,7 @@
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_25.coverage" NAME="Challenge_25 Coverage Results" MODIFIED="1604647182248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_04_Imp.coverage" NAME="Challenge_04_Imp Coverage Results" MODIFIED="1605009794323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Mathematical Programs" />
     <SUITE FILE_PATH="coverage/PythonChallenges$Vehicle.coverage" NAME="Vehicle Coverage Results" MODIFIED="1672736227143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes &amp; OOPs" />
-    <SUITE FILE_PATH="coverage/PythonChallenges$Rectangle.coverage" NAME="Rectangle Coverage Results" MODIFIED="1673013959122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes &amp; OOPs" />
+    <SUITE FILE_PATH="coverage/PythonChallenges$Rectangle.coverage" NAME="Rectangle Coverage Results" MODIFIED="1673014036519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes &amp; OOPs" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Scrap.coverage" NAME="Scrap Coverage Results" MODIFIED="1601882554613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_03.coverage" NAME="Challenge_03 Coverage Results" MODIFIED="1597154866420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_20_Imp.coverage" NAME="Challenge_20_Imp Coverage Results" MODIFIED="1604597810414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -558,6 +585,7 @@
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_01.coverage" NAME="Challenge_01 Coverage Results" MODIFIED="1604685042435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Mathematical Programs" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_14.coverage" NAME="Challenge_14 Coverage Results" MODIFIED="1600763360617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_24.coverage" NAME="Challenge_24 Coverage Results" MODIFIED="1604587403633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonChallenges$Generic_Looping.coverage" NAME="Generic_Looping Coverage Results" MODIFIED="1673236650488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deep-Dive 1/RefresherSeries" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_06.coverage" NAME="Challenge_06 Coverage Results" MODIFIED="1606133605573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python Mathematical Programs" />
     <SUITE FILE_PATH="coverage/CompetitiveProgramming$Challenge_02.coverage" NAME="Challenge_02 Coverage Results" MODIFIED="1600671882560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
