@@ -7,16 +7,20 @@ Python uses two strategies for memory allocation:
 """
 
 import gc
+i = 0
 
 
 def create_cycle():
-    x = []
-    for a in range(1,6):
-        x.append(x)
-        print(x, a)
-        print(gc.get_threshold())
-        collected = gc.collect()
-        print("Garbage collector: collected", "%d objects." % collected)
+    x = {}
+    x[i+1] = x
+    print(x)
 
+collected = gc.collect()
+print("Garbage collector: collected %d objects." % (collected))
 
-create_cycle()
+print ("Creating cycles...")
+for i in range(10):
+    create_cycle()
+
+collected = gc.collect()
+print("Garbage collector: collected %d objects." % (collected))
