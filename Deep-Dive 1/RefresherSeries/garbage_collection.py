@@ -6,6 +6,7 @@ Python uses two strategies for memory allocation:
  - Garbage collection
 """
 
+import ctypes
 import gc
 i = 0
 
@@ -24,3 +25,16 @@ for i in range(10):
 
 collected = gc.collect()
 print("Garbage collector: collected %d objects." % (collected))
+
+
+
+def ref_count(address):
+    return ctypes.c_long.from_address(address).value
+
+
+
+def object_by_id(object_id):
+    for obj in gc.get_objects():
+        if id(obj) == object_id:
+            return "Object exists"
+    return "Not found"
