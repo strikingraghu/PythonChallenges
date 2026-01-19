@@ -13,3 +13,7 @@ print(f"{person} is {age} years old and lives in {city}.")
 name, age = input("Enter your name and age: ").split()
 print("Entered Name: ", name)
 print("Entered Age: ", age)
+
+# Print the input values
+flower_color = input("What is the color of the Rose flower? ")
+print(flower_color)
