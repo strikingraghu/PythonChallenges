@@ -1,4 +1,4 @@
-# Taking input in Python
+# Taking input in Python for learning purposes!
 
 name = input("Enter your name: ")
 print("Hello, have a great day, " + name + "!")
